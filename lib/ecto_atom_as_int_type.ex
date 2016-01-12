@@ -14,6 +14,7 @@ defmodule Ecto.AtomAsIntType do
           quote do
             def cast(unquote(atom)), do: {:ok, unquote(int)}
             def dump(unquote(atom)), do: {:ok, unquote(int)}
+            def dump(unquote(int)), do: {:ok, unquote(int)}
             def load(unquote(int)), do: {:ok, unquote(atom)}
           end
         end)
