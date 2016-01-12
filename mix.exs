@@ -1,8 +1,8 @@
-defmodule EctoIntType.Mixfile do
+defmodule Ecto.AtomAsIntType.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :ecto_int_type,
+    [app: :ecto_atom_as_int_type,
      version: "0.0.1",
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,

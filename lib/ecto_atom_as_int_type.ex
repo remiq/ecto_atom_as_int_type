@@ -1,4 +1,4 @@
-defmodule Ecto.IntType do
+defmodule Ecto.AtomAsIntType do
   @moduledoc """
   Allows you to use atoms while you store data in db as int.
 

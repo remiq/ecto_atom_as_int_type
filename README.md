@@ -1,4 +1,4 @@
-# EctoIntType
+# Ecto.AtomAsIntType
 
 Allows you to use :atoms as ecto fields, while saving data in db as integers.
 
@@ -10,7 +10,7 @@ Alter model:
       use Ecto.Schema
 
       defmodule StateType do
-        use Ecto.IntType,
+        use Ecto.AtomAsIntType,
           new: 1,
           old: 2
         schema "mymodel" do
