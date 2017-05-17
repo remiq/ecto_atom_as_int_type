@@ -13,9 +13,11 @@ Alter model:
         use Ecto.AtomAsIntType,
           new: 1,
           old: 2
-        schema "mymodel" do
-          field :state, StateType
-        end
+      end
+      
+      schema "mymodel" do
+        field :state, StateType
+      end
     end
 
 If you are searching for selected atom, you need to pin it.
